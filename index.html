@@ -1,8 +1,280 @@
 <!DOCTYPE html>
-<html>
-	<head>
-	</head>
-	<body>
-		<h1> LETSTALK LANDING PAGE HERE </h1>
-	</body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Letstalk, Landing Page</title>
+
+	<!-- Lobster fonts -->
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lobster Two&display=swap" rel="stylesheet">
+
+	<!-- Poppins font -->
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+	<!-- font awesome CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- font awesome locally -->
+	<!-- <link rel="stylesheet" href="../styles/all.css"> -->
+	<!-- <script src="https://kit.fontawesome.com/8d8053aa7b.js" crossorigin="anonymous"></script> -->
+
+	<!-- Latest compiled and minified CSS -->
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Locally hosted fallback -->
+	<link rel="stylesheet" href="styles/bootstrap.min.css">
+
+	<!-- Jquery CDN -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+	<!-- Local Jquery -->
+	<script src="scripts/jquery-3.7.0.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+	<!-- local javascript -->
+	<script src="scripts/bootstrap.min.js"></script>
+	<!-- <link rel="stylesheet" href="../styles/all.css"> -->
+
+	<link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+	<!-- Navigation section -->
+
+	<nav>
+		<h3 class="logo">Letstalk</h3>
+		<div class="wrap">
+			<ul>
+				<li><a href="#intro">Intro</a><i class="fa fa-address-book text-primary" aria-hidden="true"></i></li>
+				<li><a href="#feature">Feature</a></li>
+				<li><a href="#about">About</a></li>
+			</ul>
+		</div>
+		<div class="toggle">
+			<button class="btn btn-light"><i class="fa fa-bars text-white fa-lg p-0 m-0" aria-hidden="true"></i></button>
+		</div>
+	</nav>
+
+	<!-- Intro section -->
+	<section id="intro">
+		<div class="intro-wrap">
+			<h3><span>Letstalk</span> Connect you with friends</h3>
+			<p>Share your thoughts with the world on letstalk</p>
+			<div class="link-cont">
+				<a href="http://web-02.vinsunweb.tech " target="_blank">Try it</a>
+			</div>
+		</div>
+		<div class="cover-wrap">
+			<div id="imageSlides" class="carousel slide h-100" data-ride="carousel">
+				<div class="carousel-inner p-0 m-0 h-100">
+					<div class="carousel-item active">
+						<div class="cover-image">
+							<img src="../images/cover.png" alt="cover image">
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="cover-image">
+							<img src="../images/Designer (1).jpeg" alt="cover image">
+						</div>
+						<div class="carousel-caption">
+							<h5 style="color:crimson">Connects with people around the world</h5>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="cover-image">
+							<img src="../images/Designer (2).jpeg" alt="cover image">
+						</div>
+						<div class="carousel-caption">
+							<h5 class="text-dark">Share your thoughts with Friends</h5>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="cover-image">
+							<img src="../images/Designer (4).jpeg" alt="cover image">
+						</div>
+						<div class="carousel-caption">
+							<h5 class="text-dark">Sign up in a click and start enjoying Letstalk excellent features</h5>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- feature section -->
+	<section id="feature" class="bg-dark p-3">
+		<div class="post-feature-wrapper">
+			<h3 class="text-white">What Letstalk offers you</h3>
+			<hr/>
+
+			<!-- post feature -->
+
+			<div class="post-feature d-flex justify-content-between bg-light p-3 mb-3">
+				<div class="text">
+					<h4>Create Posts</h4>
+					<p>Share your thoughts with the world and have them react instantly
+						and send feedbacks
+					</p>
+				</div>
+				<!-- image carousel -->
+				<div class="cover-wrap p-3 bg-dark d-flex align-items-center justify-content-center">
+					<div id="postFeatureSlides" class="carousel slide h-100" data-ride="carousel">
+						<div class="carousel-inner h-100">
+							<div class="carousel-item active h-100">
+								<div class="image h-100 d-flex align-items-center justify-content-center">
+									<img src="../images/features/posts/post1.jpg" alt="">
+								</div>
+							</div>
+							<div class="carousel-item h-100">
+								<div class="image h-100 d-flex align-items-center justify-content-center">
+									<img src="../images/features/posts/post2.jpg" alt="">
+								</div>
+							</div>
+							<div class="carousel-item h-100">
+								<div class="image h-100 d-flex align-items-center justify-content-center">
+									<img src="../images/features/posts/post3.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- follow and following feature -->
+		<div class="follow-feature d-flex justify-content-between bg-light p-3 mb-3">
+			<div class="text">
+				<h4>Follow and Following</h4>
+				<p>
+					Grow your buddy lists by following users who reached out earlier...
+				</p>
+			</div>
+			<!-- image carousel -->
+			<div class="cover-wrap p-3 bg-dark d-flex align-items-center justify-content-center">
+				<div id="followFeatureSlides" class="carousel slide h-100" data-ride="carousel">
+					<div class="carousel-inner h-100">
+						<div class="carousel-item active h-100">
+							<div class="image h-100 d-flex align-items-center justify-content-center">
+								<img src="../images/features/follow/follow1.jpg" alt="">
+							</div>
+						</div>
+						<div class="carousel-item h-100">
+							<div class="image h-100 d-flex align-items-center justify-content-center">
+								<img src="../images/features/follow/follow2.jpg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- chat feature -->
+			<div class="chat-feature d-flex justify-content-between bg-light p-3 mb-3">
+				<div class="text">
+					<h4>Realtime Coversation</h4>
+					<p>
+						Enter into that legendary conversation with buddies and share your thoughts, emotions, ideas, mention them!
+					</p>
+					<p>
+						Ready to start the conversation? Kindly slide into the concerned buddy DM and begin!
+					</p>
+					
+				</div>
+				<!-- image carousel -->
+				<div class="cover-wrap p-3 bg-dark d-flex align-items-center justify-content-center">
+					<div id="chatFeatureSlides" class="carousel slide h-100" data-ride="carousel">
+						<div class="carousel-inner h-100">
+							<div class="carousel-item active h-100">
+								<div class="image h-100 d-flex align-items-center justify-content-center">
+									<img src="../images/features/chat/chat4.jpg" alt="">
+								</div>
+							</div>
+							<div class="carousel-item h-100">
+								<div class="image h-100 d-flex align-items-center justify-content-center">
+									<img src="../images/features/chat/chat1.jpg" alt="">
+								</div>
+							</div>
+							<div class="carousel-item h-100">
+								<div class="image h-100 d-flex align-items-center justify-content-center">
+									<img src="../images/features/chat/chat2.jpg" alt="">
+								</div>
+							</div>
+							<div class="carousel-item h-100">
+								<div class="image h-100 d-flex align-items-center justify-content-center">
+									<img src="../images/features/chat/chat3.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+
+	<!-- About section -->
+
+	<section id="about"  class="p-3">
+		<h4>The story behind <span>Letstalk</span></h4>
+		<hr/>
+		<div class="story-team">
+			<div class="container story-cont table-primary">
+				<p>
+					Using social media applications, especially Facebook, has always left me with numerous questions, which I summarize below: 
+					What was actually happening behind the scenes as I navigated the app and used its features? 
+					I am inherently curious about the inner workings of products, particularly those involving technology, 
+					a curiosity heightened by my engineering background. 
+				</p>
+				<p>
+					Surprisingly, during my foundational program at ALX SE Africa and through personal research, 
+					I discovered that the technologies underlying these applications were not as complex as I had imagined.
+					The skills I acquired during the nine-month foundational courses at <a href="http://" target="_blank" rel="noopener noreferrer">ALX Africa</a>
+					motivated me to explore what I had previously considered magical. This led to the inception of <span>Letstalk</span>. 
+					My goal was to see how I can synthesize the skills and knowledge I have acquired within this period 
+					to develop a real-world application while at the same time gaining more insights into the world of web technology.
+				</p>
+				<p>
+					Initially, I contemplated naming the application simply "social media application," 
+					but I found that too generic. After brainstorming various names without success, 
+					inspiration struck after a period of deep reflection and meditation, leading to the name <span>Letstalk.</span>
+				</p>
+			</div>
+			<div class="team">
+				<h3>Meet the Developer</h3>
+				<hr/>
+				<div class="profile-wrapper">
+					<div class="picture-cont">
+						<img src="/images/mvs-1.jpg" alt="Matthias Sunday Oduh Picture">
+					</div>
+					<div class="intro-cont">
+						<h5>Matthias Sunday Oduh</h5>
+						<p>Electrical and Electronics Engineer, Seasoned teacher, aspiring full stack developer</p>
+						<p>Work on all aspects of <span>Letstalk</span> development and deployment</p>
+						<div class="social-links">
+							<a href="" class="github"><i class="fa fa-lg fa-github" aria-hidden="true"></i></a>
+							<a href="" class="linkedin"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a>
+							<a href="" class="facebook"><i class="fa fa-lg fa-facebook" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- footer -->
+	<footer class="letstalk-footer">
+		<p class="copy">&copy;letstalk, <small>2023</small></p>
+		<div class="project-links">
+			<a href="https://github.com/matthiasVincent/letstalk" class="repo" target="_blank">project repo page</a>
+		    <a href="http://web-02.vinsunweb.tech" class="deploy" target="_blank">project deploy page</a>
+		</div>
+	</footer>
+</body>
 </html>
